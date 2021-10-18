@@ -1,0 +1,21 @@
+[packages]
+debugpy = "*"
+ipdb = "*"
+ipython = "*"
+matplotlib = "*"
+numpy = "*"
+termcolor = "*"
+torch = "*"
+torchvision = "*"
+pylint = "*"
+tblib = "*"
+ray = {extras = ["tune"], version = "*"}
+configspace = "*"
+hpbandster = "*"
+ipykernel = "*"
+tensorboard = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
